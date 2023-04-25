@@ -32,6 +32,8 @@
     padding-right: 0;
 }
 
+@media (max-width:739px){
+
 .c-0 {
     display: none;
 }
@@ -141,7 +143,12 @@
 .c-o-11 {
     margin-left: 91.66667%;
 }
-
+}
+@media (max-width: 740px) { 
+    .nav__ratings-list {
+        margin-top: 10px;
+    }
+}
 /* >= Tablet */
 @media (min-width: 740px) {
     .row {
@@ -443,6 +450,7 @@
     .wide {
         width: 644px;
     }
+    
 }
 
 /* > PC low resolution */
